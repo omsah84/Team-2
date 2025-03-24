@@ -1,0 +1,878 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello"],
+    "bot_response": "Hello! How can I assist you today?",
+    "required_words": ["hello"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["hi"],
+    "bot_response": "Hi there! Need any help?",
+    "required_words": ["hi"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["hey"],
+    "bot_response": "Hey! What can I do for you today?",
+    "required_words": ["hey"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["good", "morning"],
+    "bot_response": "Good morning! How can I make your day easier?",
+    "required_words": ["good", "morning"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["good", "afternoon"],
+    "bot_response": "Good afternoon! What can I do for you today?",
+    "required_words": ["good", "afternoon"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["good", "evening"],
+    "bot_response": "Good evening! How may I assist you?",
+    "required_words": ["good", "evening"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["what's", "up"],
+    "bot_response": "Not much, just ready to help! What’s up with you?",
+    "required_words": ["what's", "up"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["yo"],
+    "bot_response": "Yo! Need a hand with something?",
+    "required_words": ["yo"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["howdy"],
+    "bot_response": "Howdy! How can I help today?",
+    "required_words": ["howdy"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["hi", "there"],
+    "bot_response": "Hi there! I'm here to help you out.",
+    "required_words": ["hi"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["greetings"],
+    "bot_response": "Greetings! How can I assist you today?",
+    "required_words": ["greetings"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["hey", "there"],
+    "bot_response": "Hey there! What do you need help with?",
+    "required_words": ["hey"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["sup"],
+    "bot_response": "Sup! Got any questions for me?",
+    "required_words": ["sup"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "there"],
+    "bot_response": "Hello there! How can I be of service?",
+    "required_words": ["hello"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["good", "day"],
+    "bot_response": "Good day! What would you like to discuss?",
+    "required_words": ["good", "day"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["pleasure", "to", "meet", "you"],
+    "bot_response": "Pleasure's mine! How can I help you today?",
+    "required_words": ["pleasure", "meet"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["hi", "buddy"],
+    "bot_response": "Hey buddy! How can I help?",
+    "required_words": ["hi", "buddy"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["heya"],
+    "bot_response": "Heya! What can I do for you today?",
+    "required_words": ["heya"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["hiya"],
+    "bot_response": "Hiya! Need assistance with anything?",
+    "required_words": ["hiya"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["long", "time", "no", "see"],
+    "bot_response": "It's been a while! What would you like to do today?",
+    "required_words": ["long", "time"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["I", "need", "a", "website"],
+    "bot_response": "We can help you design and develop a responsive, SEO-friendly website tailored to your needs. Let us know your requirements to get started.",
+    "required_words": ["i", "need", "website"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["I", "want", "an", "ecommerce", "site"],
+    "bot_response": "We specialize in building secure and user-friendly eCommerce websites with integrated payment gateways and inventory management. Contact us for a custom quote.",
+    "required_words": ["i", "want", "ecommerce"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["I", "need", "SEO", "services"],
+    "bot_response": "Our SEO experts can improve your website’s visibility on search engines through keyword optimization, content strategy, and technical SEO. Let’s boost your rankings!",
+    "required_words": ["i", "need", "seo"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["Can", "you", "build", "a", "mobile", "app"],
+    "bot_response": "Yes! We develop mobile apps for both Android and iOS platforms. Share your app idea with us to get a development plan and timeline.",
+    "required_words": ["build", "mobile", "app"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["I", "need", "website", "maintenance"],
+    "bot_response": "We offer website maintenance services including updates, backups, security checks, and performance optimization. Get in touch to set up a maintenance plan.",
+    "required_words": ["need", "website", "maintenance"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["I", "want", "a", "React", "developer"],
+    "bot_response": "Our React developers can build fast and interactive user interfaces tailored to your business needs. Let us know your project scope.",
+    "required_words": ["want", "react", "developer"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["I", "need", "backend", "API"],
+    "bot_response": "We can build secure and scalable backend APIs using Node.js, Django, or Laravel. Share your requirements and we’ll start planning!",
+    "required_words": ["need", "backend", "api"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["I", "need", "hosting", "service"],
+    "bot_response": "We provide reliable web hosting solutions including shared, VPS, and cloud hosting. Let us know your traffic expectations to recommend the best plan.",
+    "required_words": ["need", "hosting"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["I", "need", "domain", "registration"],
+    "bot_response": "We offer domain name registration and management services. Share your preferred domain name and we'll help you secure it.",
+    "required_words": ["need", "domain", "registration"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["I", "want", "UI", "UX", "design"],
+    "bot_response": "Our creative team provides modern UI/UX designs focused on usability and aesthetics. Let’s collaborate to bring your idea to life.",
+    "required_words": ["want", "ui", "ux"]
+  },
+  {
+    "response_type": "customer_support",
+    "user_input": ["I", "need", "help"],
+    "bot_response": "We're here to help! Please describe the issue you're facing and our support team will get back to you shortly.",
+    "required_words": ["need", "help"]
+  },
+  {
+    "response_type": "customer_support",
+    "user_input": ["My", "website", "is", "down"],
+    "bot_response": "Sorry to hear that. Please provide your domain name or customer ID so we can check the issue and restore your service ASAP.",
+    "required_words": ["website", "down"]
+  },
+  {
+    "response_type": "customer_support",
+    "user_input": ["I", "have", "a", "billing", "issue"],
+    "bot_response": "No problem! Please share your invoice number or billing email, and our finance team will assist you shortly.",
+    "required_words": ["billing", "issue"]
+  },
+  {
+    "response_type": "customer_support",
+    "user_input": ["I", "want", "to", "cancel", "my", "plan"],
+    "bot_response": "We’re sorry to see you go! Please confirm your account details so we can process the cancellation smoothly.",
+    "required_words": ["cancel", "plan"]
+  },
+  {
+    "response_type": "customer_support",
+    "user_input": ["I", "want", "to", "upgrade", "my", "plan"],
+    "bot_response": "Great! We offer flexible upgrade options. Let us know your current plan and the features you're looking for.",
+    "required_words": ["upgrade", "plan"]
+  },
+
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hii", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["who", "are", "you"],
+    "bot_response": "I am Chatbox. I am here to help you.",
+    "required_words": ["who", "are", "you"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "cold"],
+    "bot_response": "Sorry to hear that. You should eat hot and spicy food.",
+    "required_words": ["I", "have", "cold"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "headache"],
+    "bot_response": "Stay hydrated, rest in a dark room, and take over-the-counter pain relievers.",
+    "required_words": ["I", "have", "headache"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "cough", "coughing", "dry cough"],
+    "bot_response": "Stay hydrated, try honey in warm water, and avoid irritants like smoke. If coughing persists beyond a week, see a doctor.",
+    "required_words": ["i", "have", "cough"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "fever", "high temperature"],
+    "bot_response": "Rest, hydrate, and take acetaminophen. Seek help if fever exceeds 103°F (39.4°C) or lasts over 3 days.",
+    "required_words": ["i", "have", "fever"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "sore throat", "throat pain"],
+    "bot_response": "Gargle with warm salt water, drink fluids, and rest. If severe or lasts >48 hours, consult a doctor.",
+    "required_words": ["i", "have", "sore", "throat"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "nausea", "feeling sick"],
+    "bot_response": "Sip ginger tea or clear fluids. Avoid heavy meals. If accompanied by vomiting/dizziness, seek medical care.",
+    "required_words": ["i", "have", "nausea"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "diarrhea", "upset stomach"],
+    "bot_response": "Drink electrolytes, eat bland foods (e.g., bananas, rice), and avoid dairy. Consult a doctor if severe or bloody.",
+    "required_words": ["i", "have", "diarrhea"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "back pain", "backache"],
+    "bot_response": "Apply ice/heat, avoid heavy lifting, and try gentle stretches. If pain radiates to legs or causes numbness, see a doctor.",
+    "required_words": ["i", "have", "back", "pain"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "sunburn", "sunburned skin"],
+    "bot_response": "Apply aloe vera, stay hydrated, and avoid sun exposure. Use OTC pain relievers if needed. Seek help for blisters/fever.",
+    "required_words": ["i", "have", "sunburn"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "insomnia", "can't sleep"],
+    "bot_response": "Limit screen time before bed, maintain a sleep schedule, and try relaxation techniques. Consult a doctor if chronic.",
+    "required_words": ["i", "have", "insomnia"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "allergies", "sneezing"],
+    "bot_response": "Take antihistamines, avoid allergens, and use a saline nasal rinse. Seek help for breathing difficulties.",
+    "required_words": ["i", "have", "allergies"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "heartburn", "acid reflux"],
+    "bot_response": "Avoid spicy/fatty foods, eat smaller meals, and try antacids. If frequent, consult a doctor to rule out GERD.",
+    "required_words": ["i", "have", "heartburn"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "muscle pain", "muscle ache"],
+    "bot_response": "Rest, apply ice/heat, and gently stretch. Consider OTC pain relievers. If severe/swelling occurs, seek medical advice.",
+    "required_words": ["i", "have", "muscle", "pain"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "dizziness", "vertigo"],
+    "bot_response": "Sit/lie down immediately, hydrate, and avoid sudden movements. If accompanied by chest pain/confusion, seek urgent care.",
+    "required_words": ["i", "have", "dizziness"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "toothache", "dental pain"],
+    "bot_response": "Rinse with warm salt water, use floss to remove debris, and see a dentist promptly. Avoid sugary foods.",
+    "required_words": ["i", "have", "toothache"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "rash", "skin irritation"],
+    "bot_response": "Apply hydrocortisone cream and avoid scratching. If rash spreads or you develop a fever, consult a doctor.",
+    "required_words": ["i", "have", "rash"]
+  },
+  {
+    "response_type": "worry",
+    "user_input": ["I", "have", "fatigue", "extreme tiredness"],
+    "bot_response": "Ensure adequate sleep, hydrate, and check for nutrient deficiencies (e.g., iron, B12). Rule out chronic conditions with a doctor.",
+    "required_words": ["i", "have", "fatigue"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["how", "can", "I", "contact", "you"],
+    "bot_response": "You can reach us via email at support@example.com or call us at +1 (800) 123-4567.",
+    "required_words": ["contact"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["email", "address"],
+    "bot_response": "Sure! Our email address is support@example.com.",
+    "required_words": ["email"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["phone", "number"],
+    "bot_response": "You can call us at +1 (800) 123-4567 for assistance.",
+    "required_words": ["phone", "number"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["get", "in", "touch"],
+    "bot_response": "To get in touch, just send us an email at support@example.com!",
+    "required_words": ["get", "touch"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["reach", "out"],
+    "bot_response": "You can reach out anytime at support@example.com or through our contact form on the website.",
+    "required_words": ["reach", "out"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["customer", "support"],
+    "bot_response": "Our customer support team is available at support@example.com.",
+    "required_words": ["customer", "support"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["support", "email"],
+    "bot_response": "Our support email is support@example.com.",
+    "required_words": ["support", "email"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["talk", "to", "someone"],
+    "bot_response": "You can talk to someone by calling us directly at +1 (800) 123-4567.",
+    "required_words": ["talk", "someone"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["can", "I", "call", "you"],
+    "bot_response": "Absolutely! You can call us at +1 (800) 123-4567.",
+    "required_words": ["call"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["contact", "details"],
+    "bot_response": "Sure! Email: support@example.com, Phone: +1 (800) 123-4567",
+    "required_words": ["contact", "details"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["do", "you", "have", "a", "contact", "form"],
+    "bot_response": "Yes, you can fill out our contact form on the 'Contact Us' page of our website.",
+    "required_words": ["contact", "form"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["how", "do", "I", "reach", "customer", "service"],
+    "bot_response": "You can reach our customer service team at support@example.com.",
+    "required_words": ["reach", "customer"]
+  },
+  {
+    "response_type": "contact_info",
+    "user_input": ["is", "someone", "available", "to", "talk"],
+    "bot_response": "Our support team is available via email or phone. Email us at support@example.com or call +1 (800) 123-4567.",
+    "required_words": ["talk"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["I", "need", "a", "website"],
+    "bot_response": "We can help you design and develop a responsive, SEO-friendly website tailored to your needs. Let us know your requirements to get started.",
+    "required_words": ["website"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["do", "you", "offer", "app", "development"],
+    "bot_response": "Yes! We develop both Android and iOS mobile apps with sleek UI and strong backend systems.",
+    "required_words": ["app", "development"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["do", "you", "provide", "SEO", "services"],
+    "bot_response": "Absolutely. We offer expert SEO services to improve your site’s visibility and organic traffic.",
+    "required_words": ["seo"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["I", "want", "digital", "marketing"],
+    "bot_response": "We offer complete digital marketing solutions including social media, PPC, email campaigns, and more.",
+    "required_words": ["digital", "marketing"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["graphic", "design", "services"],
+    "bot_response": "Yes! Our creative team provides graphic design for branding, logos, social media, and more.",
+    "required_words": ["graphic", "design"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["do", "you", "make", "logos"],
+    "bot_response": "We design custom logos that align with your brand identity and vision.",
+    "required_words": ["logos"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["do", "you", "offer", "UI", "UX", "design"],
+    "bot_response": "Yes, we specialize in intuitive UI/UX design that enhances user experience across all devices.",
+    "required_words": ["ui", "ux"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["can", "you", "build", "ecommerce", "website"],
+    "bot_response": "Of course! We develop fully functional eCommerce platforms with payment integration, cart, and product management.",
+    "required_words": ["ecommerce"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["need", "hosting"],
+    "bot_response": "Yes, we provide secure and reliable hosting solutions tailored to your website's needs.",
+    "required_words": ["hosting"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["do", "you", "provide", "maintenance"],
+    "bot_response": "We offer ongoing website and app maintenance packages to keep your platform running smoothly.",
+    "required_words": ["maintenance"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["do", "you", "offer", "custom", "software"],
+    "bot_response": "Yes, we build custom software solutions tailored to your business goals and workflow.",
+    "required_words": ["custom", "software"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["can", "you", "manage", "social", "media"],
+    "bot_response": "We offer social media management services including content creation, posting, and audience engagement.",
+    "required_words": ["social", "media"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["do", "you", "do", "branding"],
+    "bot_response": "Yes! We help create cohesive brand identities, including logos, color palettes, tone of voice, and more.",
+    "required_words": ["branding"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["can", "you", "write", "content"],
+    "bot_response": "We have a team of professional content writers for blogs, websites, product descriptions, and more.",
+    "required_words": ["write", "content"]
+  },
+  {
+    "response_type": "service_info",
+    "user_input": ["what", "services", "do", "you", "offer"],
+    "bot_response": "We offer website & app development, SEO, digital marketing, branding, UI/UX design, and more.",
+    "required_words": ["services"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["how", "long", "to", "build", "a", "website"],
+    "bot_response": "The development time for a website depends on your requirements. On average, it takes 2–4 weeks for a basic website.",
+    "required_words": ["how", "long", "website"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["how", "long", "to", "develop", "an", "app"],
+    "bot_response": "App development can take 4–12 weeks depending on complexity and features needed.",
+    "required_words": ["how", "long", "app"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["what", "technology", "do", "you", "use", "for", "websites"],
+    "bot_response": "We use modern stacks like React, Next.js, Node.js, and WordPress based on your needs.",
+    "required_words": ["technology", "websites"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": [
+      "which",
+      "language",
+      "you",
+      "use",
+      "for",
+      "app",
+      "development"
+    ],
+    "bot_response": "We use technologies like Flutter, React Native, Swift, and Kotlin for app development.",
+    "required_words": ["language", "app"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "use", "WordPress"],
+    "bot_response": "Yes! We work with WordPress for clients who want easy-to-manage, customizable websites.",
+    "required_words": ["wordpress"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "build", "custom", "apps"],
+    "bot_response": "Yes, we specialize in building fully custom mobile and web apps tailored to your business needs.",
+    "required_words": ["custom", "apps"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "integrate", "payment", "gateway"],
+    "bot_response": "Absolutely! We can integrate various payment gateways like Stripe, Razorpay, PayPal, and more.",
+    "required_words": ["payment", "gateway"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "do", "API", "integration"],
+    "bot_response": "Yes, we offer API development and integration services for both internal and third-party systems.",
+    "required_words": ["api", "integration"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "offer", "admin", "panel"],
+    "bot_response": "We build powerful and user-friendly admin panels to help manage your content, users, and analytics easily.",
+    "required_words": ["admin", "panel"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "I", "track", "project", "progress"],
+    "bot_response": "Yes, we keep you updated throughout the development process with regular progress reports and demos.",
+    "required_words": ["track", "progress"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "use", "version", "control"],
+    "bot_response": "Definitely. We use Git and GitHub for version control and team collaboration.",
+    "required_words": ["version", "control"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["how", "do", "you", "test", "projects"],
+    "bot_response": "Our team follows a QA process with manual and automated testing to ensure quality before launch.",
+    "required_words": ["test", "projects"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "optimize", "my", "website"],
+    "bot_response": "Absolutely! We can optimize your site for speed, SEO, and performance using best practices.",
+    "required_words": ["optimize", "website"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "build", "ecommerce", "website"],
+    "bot_response": "Yes, we specialize in developing feature-rich eCommerce websites with secure payment gateways and user-friendly design.",
+    "required_words": ["ecommerce", "website"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "develop", "crm", "systems"],
+    "bot_response": "Yes, we develop custom CRM systems tailored to help manage your customers, leads, and sales workflows efficiently.",
+    "required_words": ["crm", "systems"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "offer", "maintenance", "support"],
+    "bot_response": "Absolutely. We provide post-launch maintenance and technical support to keep your platform running smoothly.",
+    "required_words": ["maintenance", "support"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "fix", "my", "existing", "website"],
+    "bot_response": "Yes, we can help audit and fix issues on your existing website, including bugs, performance, and design improvements.",
+    "required_words": ["fix", "website"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "build", "a", "dashboard"],
+    "bot_response": "Of course! We can develop custom dashboards to visualize your data and KPIs clearly and interactively.",
+    "required_words": ["build", "dashboard"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "use", "react", "or", "vue"],
+    "bot_response": "Yes, we work with modern JavaScript frameworks like React, Vue.js, and Angular based on the project needs.",
+    "required_words": ["react", "vue"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "create", "landing", "pages"],
+    "bot_response": "Yes, we create high-converting landing pages optimized for marketing campaigns, product launches, and lead generation.",
+    "required_words": ["landing", "pages"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "offer", "cloud", "deployment"],
+    "bot_response": "Yes, we handle deployment on cloud platforms like AWS, Azure, DigitalOcean, and more.",
+    "required_words": ["cloud", "deployment"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["how", "secure", "is", "your", "code"],
+    "bot_response": "We follow best practices and perform security audits to ensure all our code is secure and follows industry standards.",
+    "required_words": ["secure", "code"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "make", "progressive", "web", "app"],
+    "bot_response": "Yes, we develop fast, installable, and offline-ready Progressive Web Apps (PWAs) tailored to your goals.",
+    "required_words": ["progressive", "web", "app"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "connect", "my", "website", "to", "database"],
+    "bot_response": "Yes! We can integrate your website with secure and scalable databases like MySQL, MongoDB, and PostgreSQL.",
+    "required_words": ["website", "database"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "do", "UI", "UX", "design"],
+    "bot_response": "Absolutely! We design clean, intuitive UI/UX experiences focused on user satisfaction and business goals.",
+    "required_words": ["ui", "ux", "design"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "build", "ecommerce", "website"],
+    "bot_response": "Yes, we specialize in developing feature-rich eCommerce websites with secure payment gateways and user-friendly design.",
+    "required_words": ["ecommerce", "website"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "develop", "crm", "systems"],
+    "bot_response": "Yes, we develop custom CRM systems tailored to help manage your customers, leads, and sales workflows efficiently.",
+    "required_words": ["crm", "systems"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "offer", "maintenance", "support"],
+    "bot_response": "Absolutely. We provide post-launch maintenance and technical support to keep your platform running smoothly.",
+    "required_words": ["maintenance", "support"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "fix", "my", "existing", "website"],
+    "bot_response": "Yes, we can help audit and fix issues on your existing website, including bugs, performance, and design improvements.",
+    "required_words": ["fix", "website"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "build", "a", "dashboard"],
+    "bot_response": "Of course! We can develop custom dashboards to visualize your data and KPIs clearly and interactively.",
+    "required_words": ["build", "dashboard"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "use", "react", "or", "vue"],
+    "bot_response": "Yes, we work with modern JavaScript frameworks like React, Vue.js, and Angular based on the project needs.",
+    "required_words": ["react", "vue"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "create", "landing", "pages"],
+    "bot_response": "Yes, we create high-converting landing pages optimized for marketing campaigns, product launches, and lead generation.",
+    "required_words": ["landing", "pages"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "offer", "cloud", "deployment"],
+    "bot_response": "Yes, we handle deployment on cloud platforms like AWS, Azure, DigitalOcean, and more.",
+    "required_words": ["cloud", "deployment"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["how", "secure", "is", "your", "code"],
+    "bot_response": "We follow best practices and perform security audits to ensure all our code is secure and follows industry standards.",
+    "required_words": ["secure", "code"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "make", "progressive", "web", "app"],
+    "bot_response": "Yes, we develop fast, installable, and offline-ready Progressive Web Apps (PWAs) tailored to your goals.",
+    "required_words": ["progressive", "web", "app"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["can", "you", "connect", "my", "website", "to", "database"],
+    "bot_response": "Yes! We can integrate your website with secure and scalable databases like MySQL, MongoDB, and PostgreSQL.",
+    "required_words": ["website", "database"]
+  },
+  {
+    "response_type": "development_info",
+    "user_input": ["do", "you", "do", "UI", "UX", "design"],
+    "bot_response": "Absolutely! We design clean, intuitive UI/UX experiences focused on user satisfaction and business goals.",
+    "required_words": ["ui", "ux", "design"]
+  },
+
+  {
+    "response_type": "pricing_info",
+    "user_input": ["what", "are", "your", "prices"],
+    "bot_response": "Our pricing depends on the services you need. Can you specify what you're looking for?",
+    "required_words": ["prices"]
+  },
+  {
+    "response_type": "pricing_info",
+    "user_input": ["tell", "me", "about", "cost"],
+    "bot_response": "Sure! We offer flexible pricing based on project scope. Please share your requirements for an estimate.",
+    "required_words": ["cost"]
+  },
+  {
+    "response_type": "pricing_info",
+    "user_input": ["how", "much", "do", "you", "charge"],
+    "bot_response": "We charge based on project complexity and features. Let's discuss your needs to provide an accurate quote.",
+    "required_words": ["charge"]
+  },
+  {
+    "response_type": "pricing_info",
+    "user_input": ["pricing", "details"],
+    "bot_response": "We have competitive pricing tailored to each project. Basic websites start at $500.",
+    "required_words": ["pricing"]
+  },
+  {
+    "response_type": "pricing_info",
+    "user_input": ["quote", "for", "website"],
+    "bot_response": "A basic website typically starts at $500 and goes up depending on features. Want a custom quote?",
+    "required_words": ["quote"]
+  },
+
+  {
+    "response_type": "consultation_info",
+    "user_input": ["can", "i", "book", "a", "consultation"],
+    "bot_response": "Absolutely! We offer free consultations. Please share your preferred date and time.",
+    "required_words": ["consultation"]
+  },
+  {
+    "response_type": "consultation_info",
+    "user_input": ["how", "do", "i", "schedule", "a", "meeting"],
+    "bot_response": "You can schedule a consultation by providing your availability or clicking the 'Book Now' button.",
+    "required_words": ["schedule", "meeting"]
+  },
+  {
+    "response_type": "consultation_info",
+    "user_input": ["do", "you", "offer", "free", "consultation"],
+    "bot_response": "Yes, we offer a free 30-minute consultation to understand your needs better.",
+    "required_words": ["free", "consultation"]
+  },
+  {
+    "response_type": "consultation_info",
+    "user_input": ["i", "want", "to", "talk", "to", "an", "expert"],
+    "bot_response": "Sure! We can arrange a call with one of our experts. When would you like to connect?",
+    "required_words": ["talk", "expert"]
+  },
+  {
+    "response_type": "consultation_info",
+    "user_input": ["need", "advice", "for", "my", "project"],
+    "bot_response": "We’d be happy to advise you. Let’s set up a quick consultation to discuss your project.",
+    "required_words": ["advice", "project"]
+  },
+  {
+    "response_type": "feature_info",
+    "user_input": ["what", "features", "do", "you", "offer"],
+    "bot_response": "We offer a wide range of features including responsive design, SEO optimization, admin panels, and third-party integrations.",
+    "required_words": ["features", "offer"]
+  },
+  {
+    "response_type": "feature_info",
+    "user_input": ["can", "you", "add", "ecommerce", "features"],
+    "bot_response": "Yes, we can add full eCommerce functionality including product management, cart, payment gateway, and order tracking.",
+    "required_words": ["ecommerce", "features"]
+  },
+  {
+    "response_type": "feature_info",
+    "user_input": ["i", "want", "seo", "and", "analytics"],
+    "bot_response": "We include SEO tools and integrate Google Analytics for tracking site performance.",
+    "required_words": ["seo", "analytics"]
+  },
+  {
+    "response_type": "feature_info",
+    "user_input": ["do", "you", "provide", "dashboard"],
+    "bot_response": "Yes, we can build custom dashboards for user management, content updates, and analytics.",
+    "required_words": ["dashboard"]
+  },
+  {
+    "response_type": "feature_info",
+    "user_input": ["is", "it", "mobile", "friendly"],
+    "bot_response": "All our solutions are fully responsive and mobile-friendly by default.",
+    "required_words": ["mobile", "friendly"]
+  },
+
+  {
+    "response_type": "timeline_info",
+    "user_input": ["how", "long", "will", "my", "project", "take"],
+    "bot_response": "Most standard projects take between 2 to 6 weeks, depending on complexity.",
+    "required_words": ["how", "long", "project"]
+  },
+  {
+    "response_type": "timeline_info",
+    "user_input": ["can", "you", "complete", "it", "fast"],
+    "bot_response": "Yes, we offer expedited development options depending on availability.",
+    "required_words": ["complete", "fast"]
+  },
+  {
+    "response_type": "timeline_info",
+    "user_input": ["i", "have", "a", "deadline"],
+    "bot_response": "Please share your deadline. We’ll assess and let you know if we can meet it.",
+    "required_words": ["deadline"]
+  },
+  {
+    "response_type": "timeline_info",
+    "user_input": ["what", "is", "the", "timeline", "for", "a", "website"],
+    "bot_response": "Typically, a basic website takes 3-4 weeks, while larger ones might need 6-8 weeks.",
+    "required_words": ["timeline", "website"]
+  },
+  {
+    "response_type": "timeline_info",
+    "user_input": ["how", "soon", "can", "you", "start"],
+    "bot_response": "We can usually start within 2-3 business days after confirming the project details.",
+    "required_words": ["how", "soon", "start"]
+  }
+]
